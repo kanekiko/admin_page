@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+aside {
+    height: 100vh;
+    width: 15vw;
+    background-color: red;
+}
+
+header, section, footer {
+    background-color: white;
+}
+
+#right {
+    height: 100vh;
+    background-color: aquamarine;
+    flex: 1;
+    /* flex permet de diviser la page en fonction de la direction de flexbox*/
+}
+
+header {
+    height: 7vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
